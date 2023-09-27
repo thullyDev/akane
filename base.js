@@ -17,7 +17,7 @@ app.use((_req, res, next) => {
 });
 
 app.listen(PORT, function () {
-  // print("running on http://localhost:" + PORT);
+  print("running on http://localhost:" + PORT);
 });
 
 app.get("/", function (req, res) {
