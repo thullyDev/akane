@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 40px;
+}
+
+.logo img {
+    height: 40px;
+    margin-left: 20px;
+}
+
+.menu {
+    background-color: #000; /* Set menu background color to black */
+    box-shadow: 0 2px 4px rgba(220, 215, 215, 115);
+    list-style: none; /* Remove default list styles */
+    padding: 10px; /* Add padding to the menu */
+}
+
+.menu li {
+    display: inline-block; /* Display the menu items in a row */
+    margin-left: 20px; /* Add spacing between menu items */
+}
+
+.menu li:first-child {
+    margin-left: 0;
+}
+
+.menu li a {
+    color: #fff; /* Set menu font color to white */
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.menu li a:hover {
+    background-color: #34b7f1;
+}
+
+main {
+    padding: 20px;
+}
+
+#invite-box {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.box {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.box h2 {
+    color: #da5252;
+    margin-bottom: 10px;
+}
+
+.box p {
+    color: #555;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #e05d40;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #ff0000;
+
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+h2.about1{
+    font-size: 45px;
+    color: #ff0000;
+}

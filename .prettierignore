@@ -1,0 +1,5 @@
+node_modules
+views/pages/home.html
+package-lock.json
+package.json
+.prettierrc
